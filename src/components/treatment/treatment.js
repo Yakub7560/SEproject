@@ -16,10 +16,18 @@ const Treatment = () => {
     <div>
       {user && (
         <div>
-          <p>Name: {user.medical_data.diagnoses.treatments.drname}</p>
-          <p>Dosage: {user.medical_data.diagnoses.treatments.dosage}</p>
-          <p>Frequency: {user.medical_data.diagnoses.treatments.frequency}</p>
-          <p>Duration: {user.medical_data.diagnoses.treatments.duration}</p>
+          {user.usertype === "patient" ? (
+            <div>
+              <p>Name: {user.medical_data.diagnoses.treatments.drname}</p>
+              <p>Dosage: {user.medical_data.diagnoses.treatments.dosage}</p>
+              <p>
+                Frequency: {user.medical_data.diagnoses.treatments.frequency}
+              </p>
+              <p>Duration: {user.medical_data.diagnoses.treatments.duration}</p>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       )}
     </div>

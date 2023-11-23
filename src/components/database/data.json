@@ -67,7 +67,10 @@
       "name": "Dr. Smith",
       "specialty": "Cardiology",
       "contact": "+1-555-555-5557",
-      "hospital": "City General Hospital"
+      "hospital": "City General Hospital",
+      "experience": "From 2016",
+      "education": "MD in Cardiology, University Medical School",
+      "certifications": ["Board Certified in Cardiology", "ACLS Certified"]
     }
   },
   {
@@ -78,7 +81,13 @@
       "name": "Dr. Johnson",
       "specialty": "Endocrinology",
       "contact": "+1-555-555-5558",
-      "hospital": "Town Health Center"
+      "hospital": "Town Health Center",
+      "experience": "From 2010",
+      "education": "MD in Endocrinology, Town University Medical School",
+      "certifications": [
+        "Board Certified in Endocrinology",
+        "Diabetes Management Certification"
+      ]
     }
   }
 ]

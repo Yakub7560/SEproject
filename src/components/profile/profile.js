@@ -22,6 +22,9 @@ const Profile = () => {
               <p>Speciality: {user.profile.specialty}</p>
               <p>Contact: {user.profile.contact}</p>
               <p>Hospital: {user.profile.hospital}</p>
+              <p>Experience: {user.profile.experience}</p>
+              <p>Education: {user.profile.education}</p>
+              <p>Certifications: {user.profile.certifications}</p>
             </div>
           ) : (
             <div>
@@ -30,12 +33,10 @@ const Profile = () => {
               <p>Gender: {user.profile.gender}</p>
               <p>Contact: {user.profile.contact}</p>
               <p>Address: {user.profile.address}</p>
+              <p>Education: {user.profile.education}</p>
+              <p>Certifications: {user.profile.certifications}</p>
             </div>
           )}
-
-          {/* {user.usertype === "doctor" && (
-            <button onClick={editUserInfo}>Edit</button>
-          )} */}
         </div>
       )}
     </div>

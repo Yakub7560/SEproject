@@ -16,7 +16,12 @@ import NotFound from "./../notfound/Notfound";
 const MainInfo = () => {
   return (
     <>
-      <RouterProvider router={router} />;
+      <RouterProvider router={router} />
+      {/* {true ? (
+        <RouterProvider router={router2} />
+      ) : (
+        <RouterProvider router={router} />
+      )} */}
     </>
   );
 };
