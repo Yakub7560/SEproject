@@ -16,9 +16,9 @@ const Diagnosis = () => {
     <div>
       {user && user.usertype === "patient" && (
         <div>
-          <p>Diagnosis: {user.medical_data.diagnoses[0].name}</p>
-          <p>Date of Diagnosis: {user.medical_data.diagnoses[0].date}</p>
-          <p>Last Visit: {user.medical_data.diagnoses[0].last_visit}</p>
+          <p>Diagnosis: {user.medical_data.diagnoses.name}</p>
+          <p>Date of Diagnosis: {user.medical_data.diagnoses.date}</p>
+          <p>Last Visit: {user.medical_data.diagnoses.last_visit}</p>
         </div>
       )}
     </div>

@@ -2,8 +2,8 @@
   {
     "id": "0",
     "usertype": "patient",
-    "username": "1",
-    "password": "1",
+    "username": "patient1",
+    "password": "patientpassword1",
     "profile": {
       "name": "John Doe",
       "age": 35,
@@ -32,8 +32,8 @@
   {
     "id": "1",
     "usertype": "patient",
-    "username": "2",
-    "password": "2",
+    "username": "patient2",
+    "password": "patientpassword2",
     "profile": {
       "name": "Jane Smith",
       "age": 28,

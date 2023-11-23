@@ -33,8 +33,6 @@ const Profile = () => {
               <p>Gender: {user.profile.gender}</p>
               <p>Contact: {user.profile.contact}</p>
               <p>Address: {user.profile.address}</p>
-              <p>Education: {user.profile.education}</p>
-              <p>Certifications: {user.profile.certifications}</p>
             </div>
           )}
         </div>
