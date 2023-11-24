@@ -22,6 +22,7 @@ export default function InfoLayout() {
             <header>
               <nav className="infolayout__menu">
                 <NavLink to="profile">Profile</NavLink>
+                <NavLink to="addpatient">Add patient</NavLink>
                 <NavLink to="maininfo">List of Patients</NavLink>
               </nav>
             </header>

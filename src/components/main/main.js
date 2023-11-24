@@ -12,16 +12,12 @@ import MedicalData from "../medicaldata/medicaldata";
 import Profile from "../profile/profile";
 import Mainpage from "../mainpage/maininfo";
 import NotFound from "./../notfound/Notfound";
+import Addpatients from "../addpatients/addpatients";
 
 const MainInfo = () => {
   return (
     <>
       <RouterProvider router={router} />
-      {/* {true ? (
-        <RouterProvider router={router2} />
-      ) : (
-        <RouterProvider router={router} />
-      )} */}
     </>
   );
 };
@@ -34,6 +30,7 @@ const router = createBrowserRouter(
       <Route path="medicaldata" element={<MedicalData />} />
       <Route path="diagnosis" element={<Diagnosis />} />
       <Route path="treatment" element={<Treatment />} />
+      <Route path="addpatient" element={<Addpatients />} />
 
       <Route path="*" element={<NotFound />} />
     </Route>

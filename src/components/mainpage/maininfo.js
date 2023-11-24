@@ -7,9 +7,10 @@ const PatientList = ({ patients }) => {
     .filter((user) => user.usertype === "patient")
     .map((patient) => (
       <div className="patientlist" key={patient.id}>
-        <h2>{patient.profile.name}</h2>
+        <span>{patient.profile.name}</span> <button>Edit</button>
         <p>Age: {patient.profile.age}</p>
         <p>Diagnoses: {patient.medical_data.diagnoses.name}</p>
+        <p>Date of diagnosis: {patient.medical_data.diagnoses.date}</p>
       </div>
     ));
 
@@ -44,7 +45,12 @@ const Mainpage = () => {
                 user, your experience begins with a secure login, ensuring only
                 authorized access to patient data. Efficiently manage patient
                 profiles, updating crucial details and medical history in one
-                centralized location.
+                centralized location.Emed is a software application designed to
+                develop the record system in order to manage medical data
+                effectively. The main data that is recorded and managed in the
+                scope of this application is related to diagnosis, treatment,
+                and medical information, including vital signs, allergy,
+                immunization, lab, and X-ray tests.
               </div>
             </div>
           )}

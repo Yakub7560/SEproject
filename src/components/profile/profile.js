@@ -25,6 +25,7 @@ const Profile = () => {
               <p>Experience: {user.profile.experience}</p>
               <p>Education: {user.profile.education}</p>
               <p>Certifications: {user.profile.certifications}</p>
+              <button>Edit</button>
             </div>
           ) : (
             <div>
@@ -33,6 +34,7 @@ const Profile = () => {
               <p>Gender: {user.profile.gender}</p>
               <p>Contact: {user.profile.contact}</p>
               <p>Address: {user.profile.address}</p>
+              <button>Edit</button>
             </div>
           )}
         </div>
